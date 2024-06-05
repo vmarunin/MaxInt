@@ -19,5 +19,5 @@ func TestMain(m *testing.M) {
 }
 
 func TestBranchActions(t *testing.T) {
-	fmt.Println("This is branch test")
+	fmt.Println("This is branch test2")
 }
