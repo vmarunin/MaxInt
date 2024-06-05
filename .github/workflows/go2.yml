@@ -1,4 +1,4 @@
-name: Go
+name: GoBranch
 
 on:
   push:
@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Echo
+      run: echo "It is Branch!"
+      
     - uses: actions/checkout@v3
     - uses: actions/setup-go@v4
 
