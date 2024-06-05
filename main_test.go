@@ -17,3 +17,7 @@ func TestMaxInt(t *testing.T) {
 func TestMain(m *testing.M) {
 	main()
 }
+
+func TestBranchActions(t *testing.T) {
+        fmt.Println("This is main test2")
+}
